@@ -1,12 +1,12 @@
 {
   "name": "weather-app",
-  "homepage": "https://Gagannsalian.github.io/_Weather_App_",
+  "homepage": "https://Gagannsalian.github.io/Weather_ReactJS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

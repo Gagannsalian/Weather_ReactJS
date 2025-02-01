@@ -8,4 +8,5 @@ export default defineConfig({
   define: {
     'process.env': {} // Add this to avoid 'process is not defined' error
   }
+  , base: '/Weather_ReactJS/', 
 })
